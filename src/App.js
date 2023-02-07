@@ -1,13 +1,13 @@
 import React from "react";
 import Counter from "./store/features/counter/Counter";
+import PostList from "./store/features/post/PostList";
 
 const App = () => {
   return (
     <>
-      <div className="app">
-        <Counter />
-      </div>
+      <Counter />
       <hr />
+      <PostList />
     </>
   );
 };
